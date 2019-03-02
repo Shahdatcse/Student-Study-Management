@@ -4,47 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:background="#4499aaf2"
+    android:background="#44990409"
     tools:context=".MainActivity">
 
-    <TextView
+    <GridView
+        android:id="@+id/gridview"
         android:layout_width="match_parent"
-        android:layout_height="228dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="Welcome "
-        android:textSize="50sp"
-        android:textColor="#073d21"
-        android:textStyle="bold"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:textColor="#073d21"
-        android:background="#98f2d6"
-        android:text="Public"
-        android:layout_marginLeft="35dp"
-        android:layout_marginRight="35dp"
-        android:textSize="30dp"
-        android:textStyle="bold"
+        android:layout_height="match_parent"
+        android:layout_marginTop="73dp"
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
 
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#98f2d6"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="160dp"
-        android:textSize="30dp"
-        android:text="Log In"
-        android:layout_marginLeft="35dp"
-        android:layout_marginRight="35dp"
-        android:textColor="#073d21"
-        android:textStyle="bold"/>
+        >
 
+    </GridView>
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="126dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Log in" />
 
 
 </RelativeLayout>

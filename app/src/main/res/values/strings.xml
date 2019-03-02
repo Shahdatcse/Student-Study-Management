@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Student Study management</string>
+    <array name="title">
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year\n</item>
+        <item>Fourth Year</item>
+    </array>
+
+
 </resources>
