@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#44990409"
+    android:background="#44ab2c30"
     tools:context=".MainActivity">
 
     <GridView
@@ -15,18 +15,23 @@
         android:numColumns="2"
         android:horizontalSpacing="10dp"
         android:verticalSpacing="10dp"
-
         >
 
     </GridView>
 
     <Button
         android:id="@+id/log"
-        android:layout_width="126dp"
-        android:layout_height="58dp"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:text="Log in" />
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="13dp"
+        android:background="#4f08a1"
+        android:text="Log in"
+        android:textColor="#fdfcfb"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cm">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Books pdf"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#3b0f74"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#3b0f74"
+        android:text="Books Solution" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#3b0f74"
+        android:layout_height="wrap_content"
+        android:text="Sheet" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#3b0f74"
+        android:layout_marginRight="40dp"
+        android:text="Slide" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#3b0f74"
+        android:text="Previous Question" />
+
+
+
+</LinearLayout>

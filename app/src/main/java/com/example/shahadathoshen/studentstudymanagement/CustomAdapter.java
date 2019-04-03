@@ -42,7 +42,7 @@ class CustomAdapter extends BaseAdapter {
             convertView = inflater.inflate(R.layout.grid, parent, false);
         }
 
-      ImageView imageView = convertView.findViewById(R.id.imageHolder);
+        ImageView imageView = convertView.findViewById(R.id.imageHolder);
         TextView textView = convertView.findViewById(R.id.namePlacer);
         imageView.setImageResource(image[position]);
         textView.setText(title[position]);

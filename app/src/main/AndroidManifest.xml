@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.shahadathoshen.studentstudymanagement">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +19,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login"></activity>
+        <activity android:name=".login" />
+        <activity android:name=".registration" />
+        <activity android:name=".fstyear" />
+        <activity android:name=".profile" />
+        <activity android:name=".secondyear" />
+        <activity android:name=".thirdyear" />
+        <activity android:name=".fourthyear" />
+        <activity android:name=".Discrete" />
+        <activity android:name=".Fundamental" />
+        <activity android:name=".EEE11" />
+        <activity android:name=".clanguage" />
+        <activity android:name=".dld" />
+        <activity android:name=".logfirst" />
+        <activity android:name=".logsecond" />
+        <activity android:name=".cm"></activity>
     </application>
 
 </manifest>

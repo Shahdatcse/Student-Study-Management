@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "922457721765",
+    "firebase_url": "https://student-study-management-77619.firebaseio.com",
+    "project_id": "student-study-management-77619",
+    "storage_bucket": "student-study-management-77619.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922457721765:android:be93807eb34a4c3e",
+        "android_client_info": {
+          "package_name": "com.example.shahadathoshen.studentstudymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922457721765-ei8gtqscavech0pshh2snesspotlq8kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shahadathoshen.studentstudymanagement",
+            "certificate_hash": "f27b3b8c26459830119d665d28fc55610a8914e5"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa19bc2xew-CDlljHS7jy1nvbxVI6nI28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922457721765-hs5dlqi6pefgl3jsgloim3hetiufupg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
